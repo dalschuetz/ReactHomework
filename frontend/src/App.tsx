@@ -15,6 +15,7 @@ function Team({school, name, city, state} : {school: string; name: string; city:
       <h2>School: {school}</h2>
       <h3>Mascot: {name}</h3>
       <h3>Location: {city}, {state}</h3>
+      <br></br>
     </>
   );
 }
